@@ -1,4 +1,4 @@
-[
+/[
 	//Spectator
     //Not "Excluded from map editor" as it serves as placeholder for "Any Civ" starting locations
 	{
@@ -96,6 +96,35 @@
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
 			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"]
 	},
+		{
+		"name": "The Huns",
+		"leaderName": "Attila the Hun",
+		"adjective": ["Hunnic"],
+		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
+		"preferredVictoryType": "Domination",
+		"personality": "Attila the Hun",
+
+        "startIntroPart1": "Great Attila, mighty warrior and leader of the Hunnic empire, your men bow down before you. During the 5th century, you and your brother Bleda have conquered many lands, forged a mighty empire and commanded the most powerful and frightening force of antiquity. You inspired fear to the Roman Emperors themselves, who called you 'Flagellum Dei', the 'Scourge of God', as you took kingdom after kingdom in the Balkans, invaded Eastern Roman Empire, into Gaul and Northern Italy, and planned to conquer Rome itself. Your empire didn't survive long after your death, but your name and your legend have, for millenia to come.",
+        "startIntroPart2": "Fearsome General, your mighty hordes are at your command, waiting to crush your foes once again and to conquer all the riches the world has to offer! Will your new empire shine through the ages of history?",
+
+        "declaringWar": "I grow tired of this throne. I think I should like to have yours instead.",
+		"defeated": "My people will mourn me not with tears, but with human blood.",
+		"denounced": "Do you know who you're dealing with?",
+		"attacked": "Now what is this?! You ask me to add your riches to my great avails. The invitation is accepted.",
+		"introduction": "You are in the presence of Attila, scourge of Rome. Do not let hubris be your downfall as well.",
+		"neutralHello": "Good day to you.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "This is better than you deserve, but let it not be said that I am an unfair man.",
+
+        "outerColor": [180, 178, 164],
+        "innerColor": [70, 0, 4],
+
+        "favoredReligion": "Tengriism",
+		"uniqueName": "Scourge of God",
+		"uniques": ["[+10 Production] from every [Pasture]", "Cities are razed [20] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
+		"cities": ["Attila's Court"],
+        "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
+    },
 	{
 		"name": "Egypt",
 		"leaderName": "Ramesses II",
